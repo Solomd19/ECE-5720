@@ -1,0 +1,7 @@
+
+State Machine - |controller|current
+Name current.s3 current.s2 current.s1 current.s0 
+current.s0 0 0 0 0 
+current.s1 0 0 1 1 
+current.s2 0 1 0 1 
+current.s3 1 0 0 1 

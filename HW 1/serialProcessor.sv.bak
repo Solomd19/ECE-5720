@@ -1,0 +1,27 @@
+module serialProcessor(
+
+input serIn,
+input clk,
+input reset,
+input state,
+
+output reg [1:0] d,
+output portOut,
+output reg [3:0] bytes
+);
+
+always @(posedge clk) begin
+	if (reset) begin
+		d <= 2'b00;
+		portOut <= 0;
+	end
+
+	case (state)
+		2'b00: d <= 2'b00;
+		2'b01: d <= (d << 1) + serIn;
+		2'b10: bytes <= (bytes << 1) + serIn;		
+		2'b11: portOut <= serIn;	
+	endcase
+end
+
+endmodule

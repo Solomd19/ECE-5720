@@ -1,0 +1,62 @@
+`timescale 1ns/100ps
+
+module tb_HW1();
+
+	//Inputs
+	reg serIn = 1;
+	reg clk = 0;
+	reg reset = 0;
+	//reg [3:0] bytes;
+	
+	
+	wire state;
+	wire outValid;
+	wire error;
+	///reg [1:0] d;
+	
+	wire [3:0] bytes;
+	//wire p0, p1, p2, p3;
+
+	controller U1(
+		.serIn(serIn),
+		.clk(clk),
+		.reset(reset),
+		.bytes(bytes),
+		.state(state),
+		.outValid(outValid),
+		.error(error));
+	
+	always begin
+		#5
+		clk = ~clk;
+	end
+		
+
+	initial
+		begin
+//			#10 serIn = 0; //Switch state to 1
+//			
+//			#10 serIn = 0;
+//			#10 serIn = 0; //Set port 0, Switch to state 2
+//			
+//			#10 serIn = 0;
+//			#10 serIn = 0;
+//			#10 serIn = 0;
+//			#10 serIn = 1; //Set 1 byte of transmission, switch to state 3
+//			bytes = 4'b001;
+//			#10
+//			
+//			#10 serIn = 0;
+//			#10 serIn = 0;
+//			#10 serIn = 0;
+//			#10 serIn = 0;
+//			#10 serIn = 0;
+//			#10 serIn = 0;
+//			#10 serIn = 0;
+//			#10 serIn = 1; // Send 00000001
+//			
+//			#10 serIn = 1; // Flip serIn to state 1
+//			$stop;
+	
+		end
+endmodule

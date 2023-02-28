@@ -1,0 +1,106 @@
+|DrewSolomon_HW1
+serIn => serIn.IN2
+clk => clk.IN2
+reset => reset.IN2
+d[0] << serialProcessor:U2.d
+d[1] << serialProcessor:U2.d
+p0 << serialProcessor:U2.p0
+p1 << serialProcessor:U2.p1
+p2 << serialProcessor:U2.p2
+p3 << serialProcessor:U2.p3
+outValid << controller:U1.outValid
+error << controller:U1.error
+
+
+|DrewSolomon_HW1|controller:U1
+serIn => error.OUTPUTSELECT
+serIn => state.OUTPUTSELECT
+serIn => state.OUTPUTSELECT
+serIn => outValid.OUTPUTSELECT
+serIn => cycle.OUTPUTSELECT
+serIn => cycle.OUTPUTSELECT
+serIn => cycle.OUTPUTSELECT
+serIn => cycle.OUTPUTSELECT
+serIn => cycle.OUTPUTSELECT
+serIn => cycle.OUTPUTSELECT
+serIn => cycle.OUTPUTSELECT
+serIn => cycle.OUTPUTSELECT
+clk => cycle[0].CLK
+clk => cycle[1].CLK
+clk => cycle[2].CLK
+clk => cycle[3].CLK
+clk => cycle[4].CLK
+clk => cycle[5].CLK
+clk => cycle[6].CLK
+clk => cycle[7].CLK
+clk => error~reg0.CLK
+clk => outValid~reg0.CLK
+clk => state[0]~reg0.CLK
+clk => state[1]~reg0.CLK
+reset => state.OUTPUTSELECT
+reset => state.OUTPUTSELECT
+reset => outValid.OUTPUTSELECT
+reset => error.OUTPUTSELECT
+bytes[0] => Equal1.IN55
+bytes[0] => Add1.IN8
+bytes[0] => Equal0.IN3
+bytes[1] => Equal1.IN54
+bytes[1] => Add1.IN7
+bytes[1] => Equal0.IN2
+bytes[2] => Equal1.IN53
+bytes[2] => Add1.IN6
+bytes[2] => Equal0.IN1
+bytes[3] => Equal1.IN52
+bytes[3] => Add1.IN5
+bytes[3] => Equal0.IN0
+state[0] <= state[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[1] <= state[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+outValid <= outValid~reg0.DB_MAX_OUTPUT_PORT_TYPE
+error <= error~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DrewSolomon_HW1|serialProcessor:U2
+serIn => p3.DATAB
+serIn => p2.DATAB
+serIn => p1.DATAB
+serIn => p0.DATAB
+serIn => bytes.DATAB
+serIn => Mux1.IN3
+clk => bytes[0]~reg0.CLK
+clk => bytes[1]~reg0.CLK
+clk => bytes[2]~reg0.CLK
+clk => bytes[3]~reg0.CLK
+clk => p3~reg0.CLK
+clk => p2~reg0.CLK
+clk => p1~reg0.CLK
+clk => p0~reg0.CLK
+clk => d[0]~reg0.CLK
+clk => d[1]~reg0.CLK
+reset => d.OUTPUTSELECT
+reset => d.OUTPUTSELECT
+reset => p0.OUTPUTSELECT
+reset => p1.OUTPUTSELECT
+reset => p2.OUTPUTSELECT
+reset => p3.OUTPUTSELECT
+reset => bytes.OUTPUTSELECT
+reset => bytes.OUTPUTSELECT
+reset => bytes.OUTPUTSELECT
+reset => bytes.OUTPUTSELECT
+state[0] => Decoder1.IN1
+state[0] => Mux0.IN4
+state[0] => Mux1.IN5
+state[1] => Decoder1.IN0
+state[1] => Mux0.IN3
+state[1] => Mux1.IN4
+d[0] <= d[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[1] <= d[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+p0 <= p0~reg0.DB_MAX_OUTPUT_PORT_TYPE
+p1 <= p1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+p2 <= p2~reg0.DB_MAX_OUTPUT_PORT_TYPE
+p3 <= p3~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bytes[0] <= bytes[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bytes[1] <= bytes[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bytes[2] <= bytes[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+bytes[3] <= bytes[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,53 @@
+module controller(
+	input serIn, clk, reset,
+	input reg [3:0] bytes, // How many bytes of data will be transferred
+	output reg state, // Current state of the program
+	output outValid, // Flag indicating there is data output occuring at a port
+	output error // Flag indicating there has been an error in data output
+	);
+	
+	parameter [1:0] s0=2'b00, s1=2'b01, s2=2'b10, s3=2'b11;
+	reg [1:0] current; // The current state
+	reg [7:0] cycle; // How many cycles have occurred since last reset
+	
+	
+	always @(posedge clk) begin
+		if (reset) begin
+			current <= s0; // Start off at state 0 after reset
+			outValid <= 0; // State 0 involves no data output
+			error <= 0; // Reset error flag
+			cycle <= 4'b0; // Reset cycle counter
+		end
+		
+		if(current == s1 | current == s2 | current == s3) begin
+			cycle <= cycle + 4'b1; // Incremement cycle count during states where it is used
+		end
+		
+		case (current)
+			s0: if (serIn == 0) begin
+				current <= s1; // Move to next state once serIn drops to 0
+				outValid <= 1; // Next 2 stages involve data output, set flag
+				error <= 0; // Erase error flag if it was set previously
+				cycle <= 4'b0; // Reset cycle counter
+				end
+				
+			s1: if (cycle == 2) begin // Stage 1 consists of 2 bits of data transfer
+				current <= s2; // Move to next state after 2 cycle (2 bits of port data transfer)
+				cycle <= 4'b0; // Reset cycle counter
+				end
+				
+			s2: if (cycle == 4) begin // Stage 2 consists of 4 bits of data transfer
+				current <= s3; // Move to next state after 4 cycle (4 bits of # of bytes data transfer)
+				cycle <= 4'b0; // Reset cycle counter
+				end
+				
+			s3: if (cycle == bytes * 8) begin // Stage 2 consists of # of bytes * 8 bits of data transfer
+				current <= s0; // Move to next state the cycle after data transfer is done ((# of bytes transferred * 8) + 1)
+				outValid <= 0; // State 0 does not involve data transfer
+				//if(serIn != 1) begin
+				//	error <= 1; // Set error flag if serIn is not 1 when state changes back to 0
+				//end
+				end
+		endcase
+	end
+endmodule

@@ -1,0 +1,28 @@
+module DrewSolomon_HW1(
+
+	input serIn,
+	input clk,
+	input reset,
+
+	output reg [1:0] d,
+	output p0, p1, p2, p3,
+	output outValid,
+	output error
+	);
+
+	wire state;
+	wire portOut;
+
+	controller U1(serIn, clk, reset, bytes, state, outValid, error);
+	serialProcessor U2(serIn, clk, reset, state, d, portOut, bytes);
+
+	always @(posedge clk) begin
+		case (d)
+			2'b00: p0 <= portOut;
+			2'b01: p1 <= portOut;
+			2'b10: p2 <= portOut;		
+			2'b11: p3 <= portOut;	
+		endcase
+	end
+
+endmodule
