@@ -1,0 +1,26 @@
+module sixteen_bit_carry_lookahead_adder(X, Y, Ci, S, Co);
+
+	parameter SIZE = 4; // How many 4 bit adders needed - Must be at least 2 if changed
+
+	input [(SIZE<<2)-1:0] X, Y;
+	input Ci;
+
+	output [(SIZE<<2)-1:0] S;
+	output Co;
+
+	genvar i;
+
+	wire [(SIZE<<2):0] C;
+	wire [(SIZE<<2)-1:0] P;
+	wire [(SIZE<<2)-1:0] G;
+
+	assign C[0] = Ci;
+	assign Co = C[SIZE<<2];
+
+	generate
+		for (i=SIZE; i<=(SIZE<<2); i=i+SIZE) begin // i = 4, 8, 12, 16
+			four_bit_carry_lookahead_adder add (X[i-1:i-SIZE], Y[i-1:i-SIZE], C[i-SIZE], S[i-1:i-SIZE], C[i]);
+		end
+	endgenerate
+
+endmodule

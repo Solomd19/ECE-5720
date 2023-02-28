@@ -1,0 +1,204 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.0
+vFA_PG
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1676479974
+!i10b 1
+!s100 4UnHd5S6nzfNL?0ZLk`WX1
+IY9_b_C7XBLG@DkdnA5;VW3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 FA_PG_sv_unit
+S1
+Z3 dC:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2
+w1676265612
+8C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/FA_PG.sv
+FC:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/FA_PG.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1676479974.000000
+!s107 C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/FA_PG.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/FA_PG.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+n@f@a_@p@g
+vfour_bit_carry_lookahead_adder
+R0
+R1
+!i10b 1
+!s100 bhoZ_OCQCf;ZL2ilbETWE3
+Ih^[OgYaBe4Jc:S2U_Qhe<2
+R2
+!s105 four_bit_carry_lookahead_adder_sv_unit
+S1
+R3
+w1676336152
+8C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/four_bit_carry_lookahead_adder.sv
+FC:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/four_bit_carry_lookahead_adder.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/four_bit_carry_lookahead_adder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/four_bit_carry_lookahead_adder.sv|
+!i113 1
+R6
+R7
+vfour_bit_carry_lookahead_logic
+R0
+R1
+!i10b 1
+!s100 lNUdYC4PM=l9d7d@H6N]V0
+I?>h2ZmhW64G0QFaaKP@``2
+R2
+!s105 four_bit_carry_lookahead_logic_sv_unit
+S1
+R3
+w1676303640
+8C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/four_bit_carry_lookahead_logic.sv
+FC:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/four_bit_carry_lookahead_logic.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/four_bit_carry_lookahead_logic.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/four_bit_carry_lookahead_logic.sv|
+!i113 1
+R6
+R7
+vsixteen_bit_carry_lookahead_adder
+R0
+R1
+!i10b 1
+!s100 Q8NbBkgJ?NDVWj8FG2Bi]2
+IR?hhV>_bkHcRgS@l4<:0b0
+R2
+!s105 sixteen_bit_carry_lookahead_adder_sv_unit
+S1
+R3
+w1676338172
+8C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/sixteen_bit_carry_lookahead_adder.sv
+FC:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/sixteen_bit_carry_lookahead_adder.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/sixteen_bit_carry_lookahead_adder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/sixteen_bit_carry_lookahead_adder.sv|
+!i113 1
+R6
+R7
+vtb_FA_PG
+R0
+R1
+!i10b 1
+!s100 48ljLBULGO:af][ZKlfi=1
+IjcRKmFz@jkEESnJGe0K5S3
+R2
+!s105 tb_FA_PG_sv_unit
+S1
+R3
+w1676298228
+8C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/tb_FA_PG.sv
+FC:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/tb_FA_PG.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/tb_FA_PG.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/tb_FA_PG.sv|
+!i113 1
+R6
+R7
+ntb_@f@a_@p@g
+vtb_four_bit_carry_lookahead_adder
+R0
+R1
+!i10b 1
+!s100 SGFRAiNndkBlZA0iGo5:B3
+IIk8z3aK`fP8JF17UF4X]20
+R2
+!s105 tb_four_bit_carry_lookahead_adder_sv_unit
+S1
+R3
+w1676329962
+8C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/tb_four_bit_carry_lookahead_adder.sv
+FC:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/tb_four_bit_carry_lookahead_adder.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/tb_four_bit_carry_lookahead_adder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/tb_four_bit_carry_lookahead_adder.sv|
+!i113 1
+R6
+R7
+vtb_four_bit_carry_lookahead_logic
+R0
+R1
+!i10b 1
+!s100 HWe:D098Y3@a3RD46:]KB2
+I0E2bml_[6fAnhCENjkL2D0
+R2
+!s105 tb_four_bit_carry_lookahead_logic_sv_unit
+S1
+R3
+w1676302881
+8C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/tb_four_bit_carry_lookahead_logic.sv
+FC:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/tb_four_bit_carry_lookahead_logic.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/tb_four_bit_carry_lookahead_logic.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/tb_four_bit_carry_lookahead_logic.sv|
+!i113 1
+R6
+R7
+vtb_sixteen_bit_carry_lookahead_adder
+R0
+R1
+!i10b 1
+!s100 ?RQ=]5;^cOSK4:<zzON6g3
+II149;HG6i4M4kZhHoT]eh3
+R2
+!s105 tb_sixteen_bit_carry_lookahead_adder_sv_unit
+S1
+R3
+w1676479965
+8C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/tb_sixteen_bit_carry_lookahead_adder.sv
+FC:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/tb_sixteen_bit_carry_lookahead_adder.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/tb_sixteen_bit_carry_lookahead_adder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 2/tb_sixteen_bit_carry_lookahead_adder.sv|
+!i113 1
+R6
+R7
