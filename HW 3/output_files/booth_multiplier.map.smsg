@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at down_counter.sv(8): always construct contains both blocking and non-blocking assignments File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/down_counter.sv Line: 8

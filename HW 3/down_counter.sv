@@ -1,0 +1,21 @@
+module down_counter(
+	input clk,
+	input dc,
+
+	output reg [2:0]count = 4
+);
+
+always @ (posedge clk) begin
+
+	if(dc) begin
+		if(count <= 0) begin
+			count <= 4;
+		end
+		else begin
+			count <= count - 1;
+		end
+	end
+end
+
+
+endmodule

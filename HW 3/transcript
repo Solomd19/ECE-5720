@@ -1,0 +1,2573 @@
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of booth_multiplier.sv failed with 1 errors.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv failed with 1 errors.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 2 failed with 2 errors.
+# Compile of booth_multiplier.sv failed with 1 errors.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv failed with 1 errors.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 2 failed with 2 errors.
+# Compile of booth_multiplier.sv failed with 1 errors.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv failed with 1 errors.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 2 failed with 2 errors.
+# Compile of booth_multiplier.sv failed with 1 errors.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 1 error.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 13:32:50 on Feb 26,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3015) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/datapath.sv(36): [PCDPC] - Port size (4) does not match connection size (1) for port 'result'. The port definition is at: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/add_sub_unit.sv(5).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT/U1/U1 File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/add_sub_unit.sv
+# ** Warning: (vsim-3015) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv(37): [PCDPC] - Port size (1) does not match connection size (3) for port 'count'. The port definition is at: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/controller.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT/U2 File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/controller.sv
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/result
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(34)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 34
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+quit -sim
+vsim -gui work.tb_booth_multiplier
+# End time: 13:38:17 on Feb 26,2023, Elapsed time: 0:05:27
+# Errors: 0, Warnings: 2
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 13:38:17 on Feb 26,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3015) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/datapath.sv(36): [PCDPC] - Port size (4) does not match connection size (1) for port 'result'. The port definition is at: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/add_sub_unit.sv(5).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT/U1/U1 File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/add_sub_unit.sv
+# ** Warning: (vsim-3015) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv(37): [PCDPC] - Port size (1) does not match connection size (3) for port 'count'. The port definition is at: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/controller.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT/U2 File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/controller.sv
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/result
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(34)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 34
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv failed with 2 errors.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 2 errors.
+quit -sim
+# End time: 13:39:53 on Feb 26,2023, Elapsed time: 0:01:36
+# Errors: 0, Warnings: 2
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv failed with 2 errors.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv failed with 2 errors.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 13:41:22 on Feb 26,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3015) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv(37): [PCDPC] - Port size (1) does not match connection size (3) for port 'count'. The port definition is at: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/controller.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT/U2 File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/controller.sv
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/result
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(34)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 34
+quit -sim
+# End time: 13:44:42 on Feb 26,2023, Elapsed time: 0:03:20
+# Errors: 0, Warnings: 1
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 13:44:47 on Feb 26,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3015) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv(37): [PCDPC] - Port size (1) does not match connection size (3) for port 'count'. The port definition is at: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/controller.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT/U2 File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/controller.sv
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+quit -sim
+vsim -gui work.tb_booth_multiplier
+# End time: 13:45:04 on Feb 26,2023, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 1
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 13:45:04 on Feb 26,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3015) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv(37): [PCDPC] - Port size (1) does not match connection size (3) for port 'count'. The port definition is at: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/controller.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT/U2 File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/controller.sv
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(34)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 34
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/result
+restart -f
+# ** Warning: (vsim-3015) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv(37): [PCDPC] - Port size (1) does not match connection size (3) for port 'count'. The port definition is at: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/controller.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT/U2 File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/controller.sv
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(34)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 34
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/load \
+sim:/tb_booth_multiplier/UUT/add \
+sim:/tb_booth_multiplier/UUT/sub \
+sim:/tb_booth_multiplier/UUT/shift \
+sim:/tb_booth_multiplier/UUT/dc
+restart -f
+# ** Warning: (vsim-3015) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv(37): [PCDPC] - Port size (1) does not match connection size (3) for port 'count'. The port definition is at: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/controller.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT/U2 File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/controller.sv
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(34)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 34
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U1/A
+restart -f
+# ** Warning: (vsim-3015) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv(37): [PCDPC] - Port size (1) does not match connection size (3) for port 'count'. The port definition is at: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/controller.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT/U2 File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/controller.sv
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(34)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 34
+# Error opening C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/[PCDPC] - Port size (1) does not match connection size 
+# Path name 'C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/[PCDPC] - Port size (1) does not match connection size ' doesn't exist.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+quit -sim
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+# End time: 14:02:34 on Feb 26,2023, Elapsed time: 0:17:30
+# Errors: 1, Warnings: 4
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 14:02:59 on Feb 26,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/result
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/load \
+sim:/tb_booth_multiplier/UUT/add \
+sim:/tb_booth_multiplier/UUT/sub \
+sim:/tb_booth_multiplier/UUT/shift \
+sim:/tb_booth_multiplier/UUT/dc
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U1/A
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(34)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 34
+quit -sim
+# End time: 14:04:15 on Feb 26,2023, Elapsed time: 0:01:16
+# Errors: 0, Warnings: 0
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 14:04:22 on Feb 26,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/result
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/add \
+sim:/tb_booth_multiplier/UUT/dc \
+sim:/tb_booth_multiplier/UUT/load \
+sim:/tb_booth_multiplier/UUT/shift \
+sim:/tb_booth_multiplier/UUT/sub
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U1/A
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(34)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 34
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U1/Areg
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(34)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 34
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U1/Mreg \
+sim:/tb_booth_multiplier/UUT/U1/Qreg
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U1/M \
+sim:/tb_booth_multiplier/UUT/U1/Q
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(34)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 34
+quit -sim
+# End time: 14:26:55 on Feb 26,2023, Elapsed time: 0:22:33
+# Errors: 0, Warnings: 0
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 14:27:03 on Feb 26,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/result
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(34)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 34
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/*
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(34)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 34
+quit -sim
+# End time: 18:35:24 on Feb 27,2023, Elapsed time: 28:08:21
+# Errors: 0, Warnings: 0
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 18:35:35 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/result
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(34)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 34
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(34)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 34
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U2/state
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(34)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 34
+quit -sim
+# End time: 18:41:00 on Feb 27,2023, Elapsed time: 0:05:25
+# Errors: 0, Warnings: 0
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 18:41:13 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/result
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(34)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 34
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U2/*
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(34)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 34
+quit -sim
+# End time: 18:45:09 on Feb 27,2023, Elapsed time: 0:03:56
+# Errors: 0, Warnings: 0
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 18:45:16 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/result
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(34)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 34
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(34)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 34
+# Can't move the Now cursor.
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U2/*
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(34)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 34
+quit -sim
+# End time: 18:49:13 on Feb 27,2023, Elapsed time: 0:03:57
+# Errors: 1, Warnings: 0
+# Load canceled
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv failed with 1 errors.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 1 error.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 18:49:41 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/result
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U2/*
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(34)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 34
+quit -sim
+# End time: 18:50:53 on Feb 27,2023, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 0
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 18:50:59 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/result
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U2/*
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(34)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 34
+quit -sim
+# End time: 19:01:38 on Feb 27,2023, Elapsed time: 0:10:39
+# Errors: 0, Warnings: 0
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 19:01:47 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/result
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U2/*
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(39)
+#    Time: 180 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 39
+quit -sim
+# End time: 19:59:26 on Feb 27,2023, Elapsed time: 0:57:39
+# Errors: 0, Warnings: 0
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 19:59:33 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/result
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U2/*
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(39)
+#    Time: 240 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 39
+quit -sim
+# End time: 20:01:04 on Feb 27,2023, Elapsed time: 0:01:31
+# Errors: 0, Warnings: 0
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 20:01:18 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/result
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U2/*
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(39)
+#    Time: 250 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 39
+# Can't move the Now cursor.
+# Can't move the Now cursor.
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+quit -sim
+# End time: 20:07:54 on Feb 27,2023, Elapsed time: 0:06:36
+# Errors: 39, Warnings: 1
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 20:08:05 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/result
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(39)
+#    Time: 250 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 39
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U2/nextState
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(39)
+#    Time: 250 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 39
+quit -sim
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# End time: 20:10:34 on Feb 27,2023, Elapsed time: 0:02:29
+# Errors: 0, Warnings: 0
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 20:10:34 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/result
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U2/nextState
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(39)
+#    Time: 250 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 39
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+quit -sim
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# End time: 20:21:01 on Feb 27,2023, Elapsed time: 0:10:27
+# Errors: 7, Warnings: 1
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 20:21:01 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3017) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(12): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv
+# ** Warning: (vsim-3722) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(12): [TFMPC] - Missing connection for port 'count'.
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/result
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U2/nextState
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(39)
+#    Time: 250 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 39
+quit -sim
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# End time: 20:25:11 on Feb 27,2023, Elapsed time: 0:04:10
+# Errors: 0, Warnings: 2
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 20:25:11 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3017) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(12): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv
+# ** Warning: (vsim-3722) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(12): [TFMPC] - Missing connection for port 'count'.
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/result
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U2/nextState
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(39)
+#    Time: 250 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 39
+quit -sim
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# End time: 20:30:34 on Feb 27,2023, Elapsed time: 0:05:23
+# Errors: 0, Warnings: 2
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 20:30:35 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3017) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(12): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv
+# ** Warning: (vsim-3722) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(12): [TFMPC] - Missing connection for port 'count'.
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/result
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U2/nextState
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(41)
+#    Time: 250 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 41
+quit -sim
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+# End time: 20:35:47 on Feb 27,2023, Elapsed time: 0:05:12
+# Errors: 0, Warnings: 2
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 20:35:51 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3017) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(12): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv
+# ** Warning: (vsim-3722) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(12): [TFMPC] - Missing connection for port 'count'.
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/result
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U2/nextState
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(47)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 47
+quit -sim
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# End time: 20:38:34 on Feb 27,2023, Elapsed time: 0:02:43
+# Errors: 0, Warnings: 2
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 20:38:34 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3017) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(12): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv
+# ** Warning: (vsim-3722) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(12): [TFMPC] - Missing connection for port 'count'.
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/result
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U2/nextState
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(47)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 47
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+quit -sim
+# End time: 20:42:28 on Feb 27,2023, Elapsed time: 0:03:54
+# Errors: 4, Warnings: 3
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 20:42:34 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3017) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(12): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv
+# ** Warning: (vsim-3722) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(12): [TFMPC] - Missing connection for port 'count'.
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/result
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U2/nextState
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(47)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 47
+quit -sim
+# End time: 20:44:46 on Feb 27,2023, Elapsed time: 0:02:12
+# Errors: 0, Warnings: 2
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+# Load canceled
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 20:45:00 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3017) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(12): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv
+# ** Warning: (vsim-3722) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(12): [TFMPC] - Missing connection for port 'count'.
+# Load canceled
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/result
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U2/nextState
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(47)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 47
+quit -sim
+# End time: 20:46:27 on Feb 27,2023, Elapsed time: 0:01:27
+# Errors: 1, Warnings: 2
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 20:46:40 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3017) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(12): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv
+# ** Warning: (vsim-3722) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(12): [TFMPC] - Missing connection for port 'count'.
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/result
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U2/nextState
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(47)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 47
+quit -sim
+# End time: 20:48:12 on Feb 27,2023, Elapsed time: 0:01:32
+# Errors: 0, Warnings: 2
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv failed with 1 errors.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 1 error.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv failed with 1 errors.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 1 error.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 20:54:12 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3017) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(12): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv
+# ** Warning: (vsim-3722) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(12): [TFMPC] - Missing connection for port 'count'.
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/result
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U2/nextState
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(47)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 47
+quit -sim
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# End time: 20:55:46 on Feb 27,2023, Elapsed time: 0:01:34
+# Errors: 0, Warnings: 2
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 20:55:46 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3017) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(12): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv
+# ** Warning: (vsim-3722) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(12): [TFMPC] - Missing connection for port 'count'.
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/result
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U2/nextState
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(47)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 47
+quit -sim
+# End time: 20:59:12 on Feb 27,2023, Elapsed time: 0:03:26
+# Errors: 0, Warnings: 2
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv failed with 2 errors.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv failed with 1 errors.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 1 error.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv failed with 2 errors.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 21:00:31 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3017) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(12): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv
+# ** Warning: (vsim-3722) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(12): [TFMPC] - Missing connection for port 'count'.
+quit -sim
+# End time: 21:00:47 on Feb 27,2023, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 2
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 21:04:41 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3017) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(12): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv
+# ** Warning: (vsim-3722) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(12): [TFMPC] - Missing connection for port 'count'.
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/result
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U2/nextState
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(47)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 47
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+quit -sim
+# End time: 21:06:42 on Feb 27,2023, Elapsed time: 0:02:01
+# Errors: 0, Warnings: 2
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 21:06:50 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3017) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(12): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv
+# ** Warning: (vsim-3722) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(12): [TFMPC] - Missing connection for port 'count'.
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/result
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U2/nextState
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(47)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 47
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U1/U1/opSwitch
+restart -f
+# ** Warning: (vsim-3017) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(12): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv
+# ** Warning: (vsim-3722) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(12): [TFMPC] - Missing connection for port 'count'.
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(47)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 47
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+quit -sim
+# End time: 21:10:34 on Feb 27,2023, Elapsed time: 0:03:44
+# Errors: 0, Warnings: 4
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 21:10:41 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/count \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/result
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U2/nextState
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U1/U1/opSwitch
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U1/U1/result
+quit -sim
+# End time: 21:14:19 on Feb 27,2023, Elapsed time: 0:03:38
+# Errors: 0, Warnings: 0
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv failed with 1 errors.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 1 error.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 21:14:54 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/count \
+sim:/tb_booth_multiplier/result
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U1/U1/opSwitch \
+sim:/tb_booth_multiplier/UUT/U1/U1/result
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+quit -sim
+# End time: 21:16:14 on Feb 27,2023, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 0
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 21:16:22 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/U1/*
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+quit -sim
+# End time: 21:18:02 on Feb 27,2023, Elapsed time: 0:01:40
+# Errors: 0, Warnings: 0
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 21:18:13 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/U1/*
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/*
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/U1/*
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/result
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+quit -sim
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+# End time: 22:35:49 on Feb 27,2023, Elapsed time: 1:17:36
+# Errors: 0, Warnings: 0
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 22:35:58 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/count \
+sim:/tb_booth_multiplier/result
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+quit -sim
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# End time: 22:36:47 on Feb 27,2023, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 0
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 22:36:47 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+vsim -gui work.tb_booth_multiplier
+# End time: 22:36:59 on Feb 27,2023, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 0
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 22:36:59 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/count \
+sim:/tb_booth_multiplier/result
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/U1/*
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+quit -sim
+# End time: 22:38:53 on Feb 27,2023, Elapsed time: 0:01:54
+# Errors: 0, Warnings: 0
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv failed with 1 errors.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 1 error.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv failed with 1 errors.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 1 error.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv failed with 1 errors.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 1 error.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv failed with 1 errors.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 1 error.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv failed with 1 errors.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 1 error.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv failed with 1 errors.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 1 error.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 22:44:32 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/count \
+sim:/tb_booth_multiplier/result
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/U1/*
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U1/load
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+quit -sim
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv failed with 1 errors.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 1 error.
+# End time: 22:52:42 on Feb 27,2023, Elapsed time: 0:08:10
+# Errors: 0, Warnings: 0
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 22:53:26 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/count \
+sim:/tb_booth_multiplier/result
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/U1/*
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+quit -sim
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+quit -sim
+# End time: 22:55:50 on Feb 27,2023, Elapsed time: 0:02:24
+# Errors: 0, Warnings: 0
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 22:55:54 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/count \
+sim:/tb_booth_multiplier/result
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/U1/*
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U1/add \
+sim:/tb_booth_multiplier/UUT/U1/dc \
+sim:/tb_booth_multiplier/UUT/U1/load \
+sim:/tb_booth_multiplier/UUT/U1/sub
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U1/Qsub1reg \
+sim:/tb_booth_multiplier/UUT/U1/Qzero
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv failed with 2 errors.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv failed with 2 errors.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 2 errors.
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U1/Qsub1 \
+sim:/tb_booth_multiplier/UUT/U1/Qsub1reg
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/Qsub1
+restart -f
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U2/add
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/UUT/U2/sub
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+quit -sim
+# End time: 23:15:21 on Feb 27,2023, Elapsed time: 0:19:27
+# Errors: 0, Warnings: 1
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 23:15:30 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/count \
+sim:/tb_booth_multiplier/result
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+quit -sim
+run -all
+# End time: 23:24:51 on Feb 27,2023, Elapsed time: 0:09:21
+# Errors: 0, Warnings: 0
+# No Design Loaded!
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 23:25:07 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/count \
+sim:/tb_booth_multiplier/result
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/U1/*
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U2/*
+restart -f
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+quit -sim
+vsim -gui work.tb_booth_multiplier
+# End time: 23:30:12 on Feb 27,2023, Elapsed time: 0:05:05
+# Errors: 0, Warnings: 0
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 23:30:12 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U2/*
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv failed with 2 errors.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 2 errors.
+quit -sim
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv failed with 2 errors.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 2 errors.
+# End time: 23:37:12 on Feb 27,2023, Elapsed time: 0:07:00
+# Errors: 0, Warnings: 0
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv failed with 2 errors.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv failed with 6 errors.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 6 errors.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv failed with 2 errors.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv failed with 1 errors.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 1 error.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 23:38:46 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U2/*
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/*
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+quit -sim
+# End time: 23:44:49 on Feb 27,2023, Elapsed time: 0:06:03
+# Errors: 0, Warnings: 0
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 23:45:05 on Feb 27,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/count \
+sim:/tb_booth_multiplier/result
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+quit -sim
+# End time: 10:20:04 on Feb 28,2023, Elapsed time: 10:34:59
+# Errors: 0, Warnings: 0
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 10:20:26 on Feb 28,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/count \
+sim:/tb_booth_multiplier/result
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+quit -sim
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv failed with 2 errors.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 2 errors.
+# End time: 10:26:28 on Feb 28,2023, Elapsed time: 0:06:02
+# Errors: 0, Warnings: 0
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv failed with 2 errors.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 10:27:14 on Feb 28,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/count \
+sim:/tb_booth_multiplier/result
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+quit -sim
+# End time: 10:36:19 on Feb 28,2023, Elapsed time: 0:09:05
+# Errors: 0, Warnings: 0
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv failed with 2 errors.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv failed with 2 errors.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv failed with 2 errors.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv failed with 2 errors.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv failed with 2 errors.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv failed with 2 errors.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 10:41:44 on Feb 28,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/count \
+sim:/tb_booth_multiplier/result
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv failed with 2 errors.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+# Load canceled
+quit -sim
+vsim -gui work.tb_booth_multiplier
+# End time: 10:51:11 on Feb 28,2023, Elapsed time: 0:09:27
+# Errors: 1, Warnings: 0
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 10:51:11 on Feb 28,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+vsim -gui work.tb_booth_multiplier
+# End time: 10:51:17 on Feb 28,2023, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 0
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 10:51:17 on Feb 28,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U1/*
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+# Note :: PA Debug File '' not found. PA Dataflow Coloring not enabled.
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/count \
+sim:/tb_booth_multiplier/result
+restart -f
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 200 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(49)
+#    Time: 200 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 49
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(50)
+#    Time: 270 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 50
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(50)
+#    Time: 290 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 50
+# Compile of booth_multiplier.sv failed with 2 errors.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv failed with 2 errors.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 2 failed with 4 errors.
+# Compile of booth_multiplier.sv failed with 1 errors.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv failed with 2 errors.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 2 failed with 3 errors.
+# Compile of booth_multiplier.sv failed with 1 errors.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 1 failed with 1 error.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+quit -sim
+# End time: 11:22:10 on Feb 28,2023, Elapsed time: 0:30:53
+# Errors: 0, Warnings: 0
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 11:22:15 on Feb 28,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+# ** Error: (vsim-3063) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(13): Port 'count' not found in the connected module (5th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv
+# ** Warning: (vsim-3015) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv(19): [PCDPC] - Port size (3) does not match connection size (1) for port 'count'. The port definition is at: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/datapath.sv(11).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT/U1 File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/datapath.sv
+# ** Warning: (vsim-3015) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv(37): [PCDPC] - Port size (3) does not match connection size (1) for port 'count'. The port definition is at: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/controller.sv(3).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT/U2 File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/controller.sv
+# Error loading design
+# End time: 11:22:15 on Feb 28,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth_multiplier
+# vsim -gui work.tb_booth_multiplier 
+# Start time: 11:22:54 on Feb 28,2023
+# Loading sv_std.std
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3015) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv(19): [PCDPC] - Port size (3) does not match connection size (1) for port 'count'. The port definition is at: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/datapath.sv(11).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT/U1 File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/datapath.sv
+# ** Warning: (vsim-3015) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv(37): [PCDPC] - Port size (3) does not match connection size (1) for port 'count'. The port definition is at: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/controller.sv(3).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT/U2 File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/controller.sv
+add wave -position insertpoint  \
+sim:/tb_booth_multiplier/M \
+sim:/tb_booth_multiplier/Q \
+sim:/tb_booth_multiplier/clk \
+sim:/tb_booth_multiplier/result \
+sim:/tb_booth_multiplier/valid
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(50)
+#    Time: 290 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 50
+add wave -position insertpoint sim:/tb_booth_multiplier/UUT/U2/*
+restart -f
+# ** Warning: (vsim-3015) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv(19): [PCDPC] - Port size (3) does not match connection size (1) for port 'count'. The port definition is at: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/datapath.sv(11).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT/U1 File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/datapath.sv
+# ** Warning: (vsim-3015) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv(37): [PCDPC] - Port size (3) does not match connection size (1) for port 'count'. The port definition is at: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/controller.sv(3).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT/U2 File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/controller.sv
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+# ** Warning: (vsim-3015) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv(19): [PCDPC] - Port size (3) does not match connection size (1) for port 'count'. The port definition is at: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/datapath.sv(11).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT/U1 File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/datapath.sv
+# ** Warning: (vsim-3015) C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/booth_multiplier.sv(37): [PCDPC] - Port size (3) does not match connection size (1) for port 'count'. The port definition is at: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/controller.sv(3).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_booth_multiplier/UUT/U2 File: C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/controller.sv
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(50)
+#    Time: 290 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 50
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_booth_multiplier
+# Loading work.booth_multiplier
+# Loading work.datapath
+# Loading work.add_sub_unit
+# Loading work.down_counter
+# Loading work.controller
+run -all
+# ** Note: $stop    : C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv(50)
+#    Time: 290 ns  Iteration: 0  Instance: /tb_booth_multiplier
+# Break in Module tb_booth_multiplier at C:/Users/Drew Solomon/OneDrive - Worcester Polytechnic Institute (wpi.edu)/22-23 Senior Year/C Term/ECE 5720/HW/HW 3/tb_booth_multiplier.sv line 50
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of booth_multiplier.sv was successful.
+# Compile of datapath.sv was successful.
+# Compile of controller.sv was successful.
+# Compile of tb_booth_multiplier.sv was successful.
+# Compile of add_sub_unit.sv was successful.
+# Compile of down_counter.sv was successful.
+# 6 compiles, 0 failed with no errors.
+# End time: 13:01:04 on Feb 28,2023, Elapsed time: 1:38:10
+# Errors: 0, Warnings: 6
